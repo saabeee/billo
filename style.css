@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+
+}
+.navbar{
+    width: 100%;
+    position: fixed !important;
+    z-index: 1;
+}
+.background1 {
+    background-image: url(image/cover_1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.blur {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(17, 7, 254, 0.7), rgba(0, 224, 254, 0.7));
+    position: absolute;
+    z-index: -1;
+}
+
+.page1 {
+    height: 105vh;
+
+}
+
+.page1 h1 {
+    font-size: 50px;
+}
+
+.page1 button {
+    font-size: 20px;
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.line {
+    height: 4px;
+    width: 70px;
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    margin: 16px auto;
+}
+
+.background3 {
+    background-image: url(image/cover_3.jpg);
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+
+}
+
+.background5 {
+    background-image: url(image/cover_2.jpg);
+    width: 100%;
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+
+}
+
+.review {
+    box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review .person {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    padding-bottom: 18px;
+}
+
+.review .person img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.background7 {
+    width: 100%;
+    background-color: #F8F9FA;
+}
+
+.backgroundchange {
+    background-color: #F8F9FA;
+}
+
+.background8 {
+    background-image: url(image/cover_3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}
+
+.icon {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 100px;
+    
+}
+
+.iconss {
+    font-size: 40px;
+
+}
+
+.iconn {
+    font-size: 40px;
+}
+
+.icones {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 100px;
+}
+
+form .form-control {
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+form .form-control:focus {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
+form input.form-control {
+    height: 54px;
+}
+
+form .form-control::placeholder {
+    color: #fff;
+}
+
+.page9 button{
+    font-size: 18px;
+    background: linear-gradient(to right, #00e0fe, #1107fe);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+}
+
+footer {
+    height: 15vh;
+    background: linear-gradient(to right,#00e0fe, #1107fe);
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+
+
+.nav-link {
+    color: black !important;
+   
+  }
+  .nav-link.active {
+    color: blue !important;
+  }
